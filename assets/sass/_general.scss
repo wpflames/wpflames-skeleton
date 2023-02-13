@@ -1,0 +1,10 @@
+body {
+	@include export-vars;
+}
+a:visited {
+	color: inherit;
+}
+a:focus {
+	outline: thin solid red;
+	color: red;
+}
