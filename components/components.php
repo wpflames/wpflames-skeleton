@@ -18,6 +18,7 @@ function pagination(){ require get_theme_file_path('components/core/pagination/p
 function cover(){ require get_theme_file_path('components/core/cover/cover.php'); }
 
 // UI
+function accordion(){ require get_theme_file_path('components/ui/accordion/accordion.php'); }
 function card(){ require get_theme_file_path('components/ui/card/card.php'); }
 function box(){ require get_theme_file_path('components/ui/box/box.php'); }
 function cta(){ require get_theme_file_path('components/ui/cta/cta.php'); }

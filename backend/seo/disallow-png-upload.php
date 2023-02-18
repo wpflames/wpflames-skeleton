@@ -7,6 +7,7 @@ function theme_restrict_mime_types( $mime_types ){
     $mime_types = array(
         'pdf' => 'application/pdf',
         'jpg|jpeg' => 'image/jpeg',
+        'webp' => 'image/webp',
     );
     return $mime_types;
 }

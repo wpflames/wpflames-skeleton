@@ -184,9 +184,9 @@ function display_list_child_pages() {
 }
 add_shortcode('display_childpages', 'display_list_child_pages');
 
-
-
-
+// =========================================================================
+// Register Custom Nav Menus
+// =========================================================================
 if ( ! function_exists( 'mytheme_register_nav_menu' ) ) {
 
 	function mytheme_register_nav_menu(){
