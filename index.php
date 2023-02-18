@@ -13,7 +13,7 @@ get_header(); ?>
 
 		<main id="primary" class="content">
 			<header>
-				<h1 class="entry-title">Blog</h1>
+				<h1 class="entry-title"><?php esc_html_e( 'Blog', 'wpflames'); ?></h1>
 			</header>
 
 

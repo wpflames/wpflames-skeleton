@@ -28,7 +28,7 @@ get_header(); ?>
         if ($the_query-> have_posts() ) : ?>
 
                 <header class="page-header">
-                    <h1 class="page-title">Archive</h1>
+                    <h1 class="page-title"><?php esc_html_e( 'Archive', 'wpflames'); ?></h1>
                 </header>
 
                 <?php while ( $the_query->have_posts() ) : $the_query->the_post();

@@ -22,7 +22,7 @@ if ( post_password_required() ) {
 			if ( '1' === $underscore_comment_count ) {
 				printf(
 					/* translators: 1: title. */
-					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'underscore' ),
+					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'wpflames' ),
 					'<span>' . wp_kses_post( get_the_title() ) . '</span>'
 				);
 			} else {
@@ -55,7 +55,7 @@ if ( post_password_required() ) {
 		// If comments are closed and there are comments, let's leave a little note, shall we?
 		if ( ! comments_open() ) :
 			?>
-			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'underscore' ); ?></p>
+			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'wpflames' ); ?></p>
 			<?php
 		endif;
 

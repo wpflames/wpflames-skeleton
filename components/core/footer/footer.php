@@ -94,24 +94,24 @@
         <div class="site-footer-copyright-wrap">
             <div class="site-footer-copyright-item">
                 <div class="site-footer-copyright-txt">
-                    &copy; Copyright <?php echo date('Y'); ?> · Company 
-                    <span class="site-footer-copyright-txt-span">All rights reserved</span></div>
+                    &copy; Copyright <?php echo date('Y'); ?> · <?php esc_html_e( 'Company', 'wpflames'); ?> 
+                    <span class="site-footer-copyright-txt-span"><?php esc_html_e( 'All rights reserved', 'wpflames'); ?></span></div>
             </div>
             <div class="site-footer-copyright-item">
             <ul class="site-footer-privacy">
                 <li class="site-footer-privacy-item">
-                    <a class="site-footer-privacy-link" href="/impresszum">Impressum</a>
+                    <a class="site-footer-privacy-link" href="/impresszum"><?php esc_html_e( 'Impressum', 'wpflames'); ?></a>
                 </li>
                 <li class="site-footer-privacy-item">
-                    <a class="site-footer-privacy-link" href="#">Cookie settings</a>
+                    <a class="site-footer-privacy-link" href="#"><?php esc_html_e( 'Cookie Settings', 'wpflames'); ?></a>
                 </li>
                 <li class="site-footer-privacy-item">
-                    <a class="site-footer-privacy-link" target="_blank" href="/adatkezelesi-tajekoztato/">Privacy Policy</a>
+                    <a class="site-footer-privacy-link" target="_blank" href="/adatkezelesi-tajekoztato/"><?php esc_html_e( 'Privacy Policy', 'wpflames'); ?></a>
                 </li>
             </ul>
             </div>
             <div class="site-footer-copyright-item">
-                <a class="site-footer-copyright-link" target="_blank" href="https://www.kreativvonalak.hu/">Arculattervezés, honlaptervezés: Kreatív Vonalak</a>
+                <a class="site-footer-copyright-link" target="_blank" href="https://wpflames.com/">wpflames.com</a>
             </div>
         </div>
     </div>
