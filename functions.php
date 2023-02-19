@@ -26,7 +26,7 @@ function theme_url(){
 // Enqueue Admin CSS
 // =============================================================
 function admin_css() {
-    wp_enqueue_style( 'admin_css', THEME . '/assets/css/wpadmin.css' );
+    wp_enqueue_style( 'admin_css', THEME . '/assets/build/wpadmin.css' );
 }
 add_action('admin_print_styles', 'admin_css' );
 
