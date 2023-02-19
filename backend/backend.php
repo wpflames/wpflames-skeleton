@@ -25,3 +25,6 @@ require get_theme_file_path('backend/seo/remove-accents.php');
 require get_theme_file_path('backend/seo/automatic-alt-tag.php');
 require get_theme_file_path('backend/seo/disallow-png-upload.php');
 require get_theme_file_path('backend/seo/optimize-images.php');
+
+// Lightbox Gallery
+require get_theme_file_path('backend/lightbox/lightbox.php');

@@ -22,5 +22,6 @@ function accordion(){ require get_theme_file_path('components/ui/accordion/accor
 function card(){ require get_theme_file_path('components/ui/card/card.php'); }
 function box(){ require get_theme_file_path('components/ui/box/box.php'); }
 function cta(){ require get_theme_file_path('components/ui/cta/cta.php'); }
+function modal(){ require get_theme_file_path('components/ui/modal/modal.php'); }
 
 //Project
