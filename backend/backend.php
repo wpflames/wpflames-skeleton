@@ -1,5 +1,8 @@
 <?php defined( 'ABSPATH' ) || exit; 
 
+// Define constants
+define('THEME', get_stylesheet_directory_uri());
+
 // Underscore
 require get_theme_file_path('backend/underscore/underscore-functions.php');
 
@@ -12,6 +15,10 @@ require get_theme_file_path('backend/admin/login-logo.php');
 // Cleaning
 require get_theme_file_path('backend/clean/remove-junk.php');
 require get_theme_file_path('backend/clean/disable-comments.php');
+require get_theme_file_path('backend/clean/remove-dashboard-notices.php');
+
+// SMTP Mailgun
+require get_theme_file_path('backend/smtp/mailgun.php');
 
 // Post Types
 require get_theme_file_path('backend/post-types/post-types.php');

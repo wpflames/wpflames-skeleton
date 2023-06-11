@@ -3,6 +3,9 @@
 // Components
 // ****************************
 
+// Theme URL
+function theme_url(){ echo get_stylesheet_directory_uri(); }
+
 // Core
 function display_header(){ require get_theme_file_path('components/core/header/header.php'); }
 function display_footer(){ require get_theme_file_path('components/core/footer/footer.php'); }
@@ -24,4 +27,5 @@ function box(){ require get_theme_file_path('components/ui/box/box.php'); }
 function cta(){ require get_theme_file_path('components/ui/cta/cta.php'); }
 function modal(){ require get_theme_file_path('components/ui/modal/modal.php'); }
 
-//Project
+// Shortcodes
+require get_theme_file_path('componetnts/shortcodes.php');
