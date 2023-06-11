@@ -27,5 +27,12 @@ function box(){ require get_theme_file_path('components/ui/box/box.php'); }
 function cta(){ require get_theme_file_path('components/ui/cta/cta.php'); }
 function modal(){ require get_theme_file_path('components/ui/modal/modal.php'); }
 
+// Social Icons
+function icon_facebook(){ require get_theme_file_path('components/icons/social/facebook.php'); }
+function icon_twitter(){ require get_theme_file_path('components/icons/social/twitter.php'); }
+function icon_instagram(){ require get_theme_file_path('components/icons/social/instagram.php'); }
+function icon_phone(){ require get_theme_file_path('components/icons/social/phone.php'); }
+function icon_envelope(){ require get_theme_file_path('components/icons/social/envelope.php'); }
+
 // Shortcodes
 require get_theme_file_path('componetnts/shortcodes.php');
